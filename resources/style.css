@@ -31,7 +31,9 @@ body{
 }
 .content-area{
     flex: 1 1 auto;
-    margin-left: 20px;
+    margin-left: 10px;
+    max-width: 100%;
+    overflow: hidden;
 }
 #header_aboutme{
     align-items: center;
@@ -51,6 +53,7 @@ body{
 #content_aboutme{
     text-align: left;
     font-size: larger;
+    overflow: scroll;
 
 }
 
