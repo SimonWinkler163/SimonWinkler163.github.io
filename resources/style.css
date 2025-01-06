@@ -26,6 +26,8 @@ body{
     display: flex;
     justify-content: flex-start;
     border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
 }
 .content-area{
     flex: 1 1 auto;
